@@ -47,7 +47,6 @@ public class BestSellerBooksRecyclerViewAdapter extends RecyclerView.Adapter<Bes
         String ranking = String.format("%d", bestSellerBook.rank);
         holder.ranking.setText(ranking);
 
-
         Glide.with(holder.mView)
                 .load(bestSellerBook.bookImageUrl)
                 .centerInside()
